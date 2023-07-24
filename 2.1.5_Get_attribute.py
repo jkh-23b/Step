@@ -27,7 +27,7 @@ try:
     time.sleep(1)
 
     driver.find_element(By.CSS_SELECTOR, "button.btn-default").click()
-    time.sleep(3)
+
 
 finally:
     time.sleep(2)
