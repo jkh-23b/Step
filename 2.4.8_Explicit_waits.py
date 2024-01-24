@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-driver = webdriver.Chrome()
+driver = webdriver.Firefox()
 driver.maximize_window()
 driver.get("https://suninjuly.github.io/explicit_wait2.html")
 driver.implicitly_wait(5)
